@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML5 Tag</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Narsingdi Pitha House</h1>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="type your name plz">
+        </label>
+        
+        <label for="email">Your Email
+            <input id="name" type="email" placeholder="type your email plz">
+        </label>
+        
+        <label for="password">Your Password
+            <input id="password" type="text" placeholder="type your password plz">
+        </label>
+
+            <fieldset style="width: 30%;">
+                <legend>Plz pick One pitha</legend>
+                <label for="cithoy">
+                    <input type="radio" name="pitha" id="cithoy">Cithoy Pitha
+                    <ul> <small>Made by:</small>
+                        <li>Chal</li>
+                        <li>Pani</li>
+                        <li>Lobon</li>
+                    </ul>
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">Vapa Pitha
+                    <ul> <small>Made by:</small>
+                        <li>Chal</li>
+                        <li>Gur</li>
+                        <li>Lobon</li>
+                        <li>Narikel</li>
+                    </ul>
+                </label>
+                <label for="patisapta">
+                    <input type="radio" name="pitha" id="patisapta">Patisapta Pitha
+                    <ul> <small>Made by:</small>
+                        <li>Cithoy</li>
+                        <li>Milk</li>
+                        <li>Lobon</li>
+                        <li>Cini</li>
+                </label>
+            </fieldset>
+            
+            <fieldset style="width: fit-content;">
+                <legend>Sellect One or More vortas</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha"> Sorishar Vorta
+                </label>
+                <label for="shotki">
+                    <input type="checkbox" name="vorta" id="shotki"> Shotkir Vorta
+                </label>
+                <label for="dalvorta">
+                    <input type="checkbox" name="vorta" id="dalvorta"> Daler Vorta
+                </label>
+            </fieldset>
+
+            <fieldset style="width: fit-content;">
+                <legend>Special Instraction</legend>
+                <textarea name="comment" id="" cols="60" rows="3" placeholder="Comment">Hello plz...</textarea>
+            </fieldset>
+            <input type="reset" value="Cancle">
+            <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
